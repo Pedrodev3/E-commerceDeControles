@@ -66,6 +66,11 @@
         flex-basis: 50%;
     }
 }
+@media (max-width: 37.5rem) and (orientation:portrait) {
+    .header_cart{
+        padding: 0 1rem;
+    }
+}
 
 /* Design */
 header{
