@@ -1,0 +1,62 @@
+.main_images{
+    width: 50px;
+    height: 50px;
+}
+
+/* Layout */
+
+.content{
+    margin-top: 8rem;
+    max-width: 100vw;
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+}
+.main{
+    margin: 0 30px;
+    max-width: 90rem;
+    display: grid;  
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr 1fr 1fr));
+    grid-template-rows: repeat(2, 1fr);  
+    justify-content: center;
+    grid-template-areas: 
+        "card_1 card_2 card_3"
+        "card_4 card_5 card_6";
+    gap: 1.5rem 6rem;
+}
+.cards_1{grid-area: card_1;}
+.cards_2{grid-area: card_2;}
+.cards_3{grid-area: card_3;}
+.cards_4{grid-area: card_4;}
+.cards_5{grid-area: card_5;}
+.cards_6{grid-area: card_6;}
+
+/* Media Querye */  
+
+/* Design */
+
+.main{
+    background-color: rgba(175, 167, 167, 0.100);
+    
+}
+.main_cards{
+    max-width: 300px;
+    max-height: 380px;
+    background-color: #fff;
+    border: solid 5px white;
+}
+.border_radius_left{
+    border-radius: 0 1rem 1rem 0;
+}
+.border_radius_center{
+    border-radius: 1rem 1rem 1rem 1rem;
+}
+.border_radius_right{
+    border-radius: 1rem 0 0 1rem;
+}
+.main_images{
+    width: 100%;
+    height: 50%;
+    border: solid 5px white; 
+}
+
