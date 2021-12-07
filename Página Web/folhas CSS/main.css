@@ -1,10 +1,4 @@
-.main_images{
-    width: 50px;
-    height: 50px;
-}
-
 /* Layout */
-
 .content{
     margin-top: 8rem;
     max-width: 100vw;
@@ -15,14 +9,15 @@
 .main{
     margin: 0 30px;
     max-width: 90rem;
+    width: 87.5rem;
     display: grid;  
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr 1fr 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr 1fr 1fr));
     grid-template-rows: repeat(2, 1fr);  
     justify-content: center;
     grid-template-areas: 
         "card_1 card_2 card_3"
         "card_4 card_5 card_6";
-    gap: 1.5rem 6rem;
+    gap: 1.5rem 15.5rem;
 }
 .cards_1{grid-area: card_1;}
 .cards_2{grid-area: card_2;}
@@ -33,11 +28,12 @@
 
 /* Media Querye */  
 
-/* Design */
 
+
+
+/* Design */
 .main{
     background-color: rgba(175, 167, 167, 0.100);
-    
 }
 .main_cards{
     max-width: 300px;
@@ -55,8 +51,11 @@
     border-radius: 1rem 0 0 1rem;
 }
 .main_images{
-    width: 100%;
+    width: 11rem;
     height: 50%;
-    border: solid 5px white; 
+    display: block;
+    margin: auto;
+
+    
 }
 
