@@ -28,10 +28,10 @@
 }
 .footer_socialmedias,
 .footer_address {
-  font-size: 1vw;
+  font-size: max(18px,1vw);
 }
 .footer_main {
-  font-size: 1.5vw;
+  font-size: max(22px,1.5vw);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -41,7 +41,7 @@
   text-align: center;
 }
 .footer_main_p {
-  font-size: 1rem;
+  font-size: min(14px, 1rem);
   text-align: center;
 }
 
@@ -63,4 +63,24 @@
 .footer_svg {
   width: 3rem;
   height: 3rem;
+}
+.footer_address{
+  text-align: center;
+}
+
+/* Media Querye */
+
+@media (max-width: 78rem) and (orientation: portrait){
+  .footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 78rem) and (orientation: landscape){
+  .footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
