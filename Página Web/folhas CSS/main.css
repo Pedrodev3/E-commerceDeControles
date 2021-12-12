@@ -41,7 +41,7 @@
 
 /* Design */
 .main {
-  background-color: rgba(175, 167, 167, 0.1);
+  background-color: rgba(35, 38, 40, .5);
 }
 .main_cards {
   position: relative;
@@ -49,8 +49,9 @@
   height: 100%;
   max-width: 18.75em;
   max-height: 23.75em;
-  background-color: #fff;
-  border: solid 5px white;
+  background-color: rgb(24, 26, 27);
+  border: solid 5px rgb(24, 26, 27);
+  color: #fff;
 }
 .border_radius_left {
   border-radius: 0 1rem 1rem 0;

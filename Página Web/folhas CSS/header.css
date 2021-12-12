@@ -1,5 +1,6 @@
 /* Layout */
 .header {
+  background-color: rgb(35, 38, 40);
   max-width: 100%;
   min-height: 10vh;
 }
@@ -28,6 +29,7 @@
 }
 .header_h1_p {
   margin-top: 0.4em;
+  padding-left: 1rem;
   font-size: max(42px, 2.7vw);
 }
 .header_search_form {
